@@ -14,12 +14,13 @@ body {
     .container {
         display: inline-block;
         width: 800px;
-        margin-top: 100px;
-        margin-left: calc((100% - 800px) / 2);
+        /* margin-top: 100px;
+        margin-left: calc((100% - 800px) / 2); */
         /* background-color: #fff; */
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 
     }
         .left-column {
@@ -32,7 +33,7 @@ body {
             padding: 40px;
             padding-bottom: 20px;
             margin-top: 20px;
-            background-color: aqua;
+            background-color: #0069BA;
             color: #fff;
             position: absolute;
             top: 30px;
@@ -67,13 +68,17 @@ body {
         }
             .close {
                 display: inline-block;
-                width: 60px;
-                line-height: 60px;
+                /* width: 60px; */
+                /* line-height: 60px; */
                 text-align: center;
                 font-size: 30px;
                 position: absolute;
-                top: 0;
-                right: 0;
+                top: 10px;
+                right: 20px;
+                color: #CBCBCB;
+                text-decoration: none;
+                background-color: rebeccapurple;
+                height: 0;
 
             }
 
